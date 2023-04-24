@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <audio autoplay preload="auto" loop>
+        <source src="src/audio/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="game-board">
+        <img src="src/img/restart.png" class="restart" onclick="restart()">
+        <img src="src/img/clouds.png" class="clouds">
+        <img src="src/img/mario.gif" class="mario">
+        <img src="src/img/pipe.png" class="pipe">
+    </div>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
